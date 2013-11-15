@@ -5622,7 +5622,7 @@ a.list-group-item.active:focus .list-group-item-text {
 .panel {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6633,6 +6633,28 @@ button.close {
 
 .affix {
   position: fixed;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @-ms-viewport {
